@@ -152,6 +152,39 @@ Config.DurabilityMultiplier = {
     ['weapon_fireextinguisher']      = 0.15,
     ['weapon_hazardcan']             = 0.15,
     ['weapon_fertilizercan']         = 0.15,
+
+	--Custom Weapons
+    ['weapon_ak47'] 			    = 0.15,
+    ['weapon_de'] 	                = 0.15,
+    ['weapon_fnx45'] 			    = 0.15,
+    ['weapon_glock17'] 		        = 0.15,
+    ['weapon_m4'] 			        = 0.15,
+    ['weapon_hk416'] 			    = 0.15,
+    ['weapon_mk14'] 			    = 0.15,
+    ['weapon_m110'] 			    = 0.15,
+    ['weapon_huntingrifle'] 	    = 0.20,
+    ['weapon_ar15'] 			    = 0.15,
+    ['weapon_m9'] 	                = 0.15,
+    ['weapon_m70'] 			        = 0.15,
+    ['weapon_m1911'] 		        = 0.15,
+    ['weapon_mac10'] 			    = 0.15,
+    ['weapon_uzi'] 	                = 0.15,
+    ['weapon_mp9'] 	                = 0.15,
+    ['weapon_mossberg'] 		    = 0.15,
+    ['weapon_remington'] 		    = 0.15,
+    ['weapon_scarh'] 			    = 0.15,
+    ['weapon_shiv'] 	            = 0.15,
+    ['weapon_katana'] 	            = 0.15,
+    ['weapon_sledgehammer'] 	    = 0.15,
+    ['weapon_mp5'] 			        = 0.15,
+    ['weapon_glock18c'] 		    = 0.15,
+    ['weapon_glock22'] 			    = 0.15,
+    ['weapon_aks74'] 			    = 0.15,
+    ['weapon_ak74'] 			    = 0.15,
+    ['weapon_karambit'] 	        = 0.15,
+    ['weapon_colbaton'] 	        = 0.15,
+    --nx taser
+    ['weapon_taser']                 = 0.15,
 }
 
 Config.WeaponRepairPoints = {
@@ -163,12 +196,12 @@ Config.WeaponRepairPoints = {
 }
 
 Config.WeaponRepairCosts = {
-    ["pistol"] = 1000,
-    ["smg"] = 3000,
-    ["mg"] = 4000,
-    ["rifle"] = 5000,
-    ["sniper"] = 7000,
-    ["shotgun"] = 6000
+    ["pistol"] = 200,
+    ["smg"] = 600,
+    ["mg"] = 800,
+    ["rifle"] = 1200,
+    ["sniper"] = 1500,
+    ["shotgun"] = 1000
 }
 
 WeaponAttachments = {

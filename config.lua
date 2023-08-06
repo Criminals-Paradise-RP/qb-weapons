@@ -184,7 +184,8 @@ Config.DurabilityMultiplier = {
     ['weapon_karambit'] 	        = 0.15,
     ['weapon_colbaton'] 	        = 0.15,
     --nx taser
-    ['weapon_taser']                 = 0.15,
+    ['weapon_taser']                = 0.15,
+    ['weapon_beanbagshotgun'] 		= 0.0,
 }
 
 Config.WeaponRepairPoints = {
@@ -1462,6 +1463,13 @@ WeaponAttachments = {
         ['flashlight'] = {
             component = 'COMPONENT_AT_PI_FLSH',
             item = 'rifle_flashlight',
+        },
+    },
+    ['WEAPON_BEANBAGSHOTGUN'] = {
+        ['defaultclip'] = {
+            component = 'COMPONENT_BEANBAGSHOTGUN_CLIP_01',
+            item = 'pumpshotgun_defaultclip',
+            type = 'clip',
         },
     },
 }
